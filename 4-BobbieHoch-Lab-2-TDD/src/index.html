@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vending Machine</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Vending Machine</h1>
+
+  <p>Note: Parts of this page will begin to work as you complete portions of the lab.</p>
+  <ol>
+    <li>When <code>addItem</code> is complete, section 2 will display the table of purchased items.</li>
+    <li>When <code>removeItem</code> is complete, the Remove button in section 2 will work.</li>
+    <li>When <code>calculateTotal</code> is complete, section 2 will display the total.</li>
+    <li>When <code>isSufficientPayment</code> is complete, section 4 will display an "Insufficient Payment" message when payment is too low.</li>
+    <li>When <code>calculateChange</code> is complete, section 4 will display the change amount.</li>
+    <li>When <code>formatCurrency</code> is complete, all numbers will appear formatted.</li>
+    <li>When <code>getCoins</code> is complete, coin counts will display in section 4.</li>
+  </ol>
+
+  <h2>1. Select Items</h2>
+  <ul id="menu"></ul>
+
+  <h2>2. See Your Bill</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th><th>Price</th><th></th>
+      </tr>
+    </thead>
+    <tbody id="selectedItems">
+    </tbody>
+  </table>
+  <p>
+    <label for="total">Total Due:</label>
+    <span id="total"></span>
+  </p>
+
+  <h2>3. Insert Cash</h2>
+  <p class="instructions">
+    Enter the amount of cash you are inserting into the machine.
+  </p>
+  <form id="cashForm">
+    <p>
+      <label for="cashInput">Cash</label>
+      <input type="number" id="cashInput" step="0.01" placeholder="e.g. 2.00" />
+    </p>
+    <p>
+      <button type="submit">Submit</button>
+    </p>
+  </form>
+  <h2>4. Get Change</h2>
+  <p>
+    <label for="cashInserted">Cash Inserted:</label>
+    <span id="cashInserted"></span>
+  </p>
+  <p>
+    <label for="changeDue">Change:</label>
+    <span id="changeDue"></span>
+  </p>
+  <p id="paymentInsufficientMessage" hidden>&times; Insufficient Payment</p>
+  <ul id="change" hidden>
+    <li>Quarters: <span class="change-count">0</span></li>
+    <li>Dimes: <span class="change-count">0</span></li>
+    <li>Nickels: <span class="change-count">0</span></li>
+    <li>Pennies: <span class="change-count">0</span></li>
+  </ul>
+
+  <button type="button" id="resetButton">Reset</button>
+
+  <script src="bundle.js"></script>
+</body>
+</html>

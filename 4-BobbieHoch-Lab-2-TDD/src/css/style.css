@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  color: #222;
+}
+
+code {
+  font-size: 120%;
+}
+
+label {
+  color: #222;
+  font-weight: bold;
+}
+
+td, th {
+  padding: 3px 14px;
+  text-align: right;
+}
+td:first-child, th:first-child {
+  text-align: left;
+}
+
+#paymentInsufficientMessage {
+  font-weight: bold;
+  font-size: 120%;
+  color: crimson;
+}
