@@ -1,0 +1,23 @@
+{
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "start:dev": "nodemon src/index.ts",
+        "test": "jest",
+        "test:dev": "jest --watchAll --verbose"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^28.1.3",
+        "jest": "^28.1.1",
+        "nodemon": "^2.0.16",
+        "ts-jest": "^28.0.5",
+        "ts-node": "^10.8.1",
+        "typescript": "^4.7.4"
+    }
+}
