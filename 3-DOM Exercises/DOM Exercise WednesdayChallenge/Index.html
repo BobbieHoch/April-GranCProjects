@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM Coding Challenge</title>
+  </head>
+  <body>
+    <div class="section">
+      <h3>Question 1</h3>
+
+      <p id="question-1">
+        Getting elements by id. Change this font color to blue
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Question 2</h3>
+
+      <p class="question-2">
+        Getting elements by class. Change this font color to red
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Question 3</h3>
+
+      <p class="question-3">
+        Getting all elements and change the color with a new class. Change this
+        font color to orange
+      </p>
+      <p class="question-3">Change this font color to orange too</p>
+    </div>
+
+    <div class="section">
+      <h3>Question 4</h3>
+
+      <p id="question-4">
+        Getting the parent. Change the entire section background color to purple
+        using a new class
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Question 5</h3>
+
+      <div>
+        Add a click handler for this button. Open an alert message
+        <button id="alert-button">Click Me</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Question 6</h3>
+
+      <div>
+        Add a click handler for this button. Create a new element in the list
+        <button id="add-tv-show-button">Add</button>
+        <ul id="tv-shows">
+          <li>Psych</li>
+          <li>It's Always Sunny</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Question 7</h3>
+      <div>
+        Add a click handler for this button. Remove the comment
+        <button id="question-7-remove-button">Remove</button>
+        <p id="comment-7">Hello world! This is a comment</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Question 8</h3>
+      <div>
+        This is a comment. Add a click handler to remove this element
+        <button id="question-8-remove-button">Delete Comment</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Question 9</h3>
+
+      <p class="highlight">
+        Add mouseover and mouseleave events to highlight this text yellow.
+        Highlight means changing the background to yellow and font color to
+        white
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Question 10</h3>
+
+      <p class="highlight">
+        Fix question 9 so that it supports multiple highlighting elements
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Question 11</h3>
+
+      <p id="question-11">
+        Get this text (inside the p element) and log it to the console
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Question 12</h3>
+      <div>
+        Enter your name in the input. When the user clicks the button, write the
+        message 'Hello (name)' in the p tag
+        <input type="text" id="question-12-name" />
+        <button id="say-hello">Say Hello!</button> Message:
+        <p id="message"></p>
+      </div>
+    </div>
+    <div class="section">
+      <h3>Question 13</h3>
+
+      <div>
+        Enter your name in the input. When the user clicks the button, add their
+        name to the list
+        <input type="text" id="question-13-name" />
+        <button id="add-user">Add User</button>
+        <ul id="users">
+          <li>Matt</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Question 14</h3>
+
+      <div>
+        Show and hide the text below using classes.
+        <button id="show-button">Show Button</button>
+        <button id="hide-button">Hide Button</button>
+        <p id="secret-text">
+          This is a secret message. Hide it before anyone sees it
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Question 15</h3>
+
+      <div>
+        Build an addition calculator. Put the answer in answer
+        <input type="text" id="question-15-x" />
+        <input type="text" id="question-15-y" />
+        <button id="add-calc-button">Add</button>
+        <p id="question-15-answer"></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Question 16</h3>
+      <div>
+        Build a calculator. Put the answer in answer
+        <input type="text" id="question-16-x" />
+
+        <select id="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input type="text" id="question-16-y" />
+        <button id="calc-button">Equals</button>
+        <p id="question-16-answer"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

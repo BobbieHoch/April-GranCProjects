@@ -1,0 +1,22 @@
+.big {
+  font-size: 300%;
+}
+p {
+  transition: all 400ms;
+}
+#hide-me,
+#show-me {
+  border: 4px solid crimson;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: 10em;
+}
+#show-me {
+  border-color: green;
+  margin-left: 11em;
+}
+
+.orange {
+  color: rgb(28, 110, 59);
+  border: 4px solid purple;
+}
