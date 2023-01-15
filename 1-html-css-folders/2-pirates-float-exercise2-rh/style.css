@@ -1,0 +1,83 @@
+*{
+    box-sizing:border-box;
+    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body  {
+    margin:0;
+    width:100%;
+    display: flex;
+    height: 100%;
+    background-color: #ccc;
+     /* align-content: center; */
+    /* width: 80%; */
+    /* color:gray
+     */
+    }
+
+    h2{font-family: 'Nanum Brush Script', cursive;
+         margin-left: 40px;
+    }
+        article { 
+            max-width: 1500px;
+            margin: 5px auto;
+            background-color:white;
+            padding:30px
+            /* align-content: center; */
+        } 
+
+.image-container {
+    width:300px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid gray;
+    box-shadow: 10px 5px 0px #ddd;
+    margin:0px 20px;
+    
+}
+.image-container img{
+    width:100%;
+}
+
+ #image-1 {
+     width:35%; 
+     float:right;
+     /* clear:right; */
+     margin-left: 40px;
+     margin-bottom: 40px;
+     margin-right: 35px;
+     transform:rotate(5deg);
+ }
+
+ .p-1 {
+     font-family: 'Nanum Brush Script', cursive;
+     /* clear:left; */
+     height:auto;
+     margin: 20px;
+ }
+
+#image-2 {
+    width:40%;
+    float:left;
+    /* clear:left; */
+    margin-right:40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left:40px;
+    transform:rotate(-5deg);
+    
+    /* height:215px;     */
+
+}
+.p-2 {
+    font-family: 'Nanum Brush Script', cursive;
+    clear:right;
+    margin:35px;
+}
+.photoCapt{
+    font-family: 'Nanum Brush Script', cursive;
+    text-align: center;
+    font-size: 20px;
+
+}

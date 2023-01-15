@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height:100vh;
+}
+.square
+    {
+        width: 50vw;
+        height: 33.33vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black; 
+        font-weight: bolder;
+        font-size: 25px;
+        text-shadow: 4px 4px #000;
+        box-sizing: border-box; 
+}
+.one{
+    background-color:red ;
+   
+}
+.two{
+     background-color:orange ;
+
+}
+.three{
+      background-color:yellow ;
+  
+}
+.four{
+     background-color:green ;
+ 
+}
+.five{
+        background-color:skyblue ;
+   
+}
+.six{
+       background-color:purple;
+  
+}
+
+
+@media screen and (min-width:600px) {
+    .square{
+        width: 33.33vw;
+        height: 50vh;
+    }
+
+}

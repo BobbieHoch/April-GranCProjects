@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#title {
+  margin: 0px;
+}
+
+.navbar {
+  padding: 20px;
+  background: #5e7386;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  .links {
+    flex-direction: row;
+  }
+
+  .title {
+    margin-left: 40px;
+  }
+  a {
+    margin-right: 20px;
+  }
+}

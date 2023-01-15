@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.squareContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.square {
+    width: 50vw;
+    height: 33.33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 2px 2px black;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.blue {
+
+    background-color: aqua;
+}
+
+.purple {
+    background-color: purple;
+}
+
+@media screen and (min-width: 600px) {
+    .square {
+        width: 33.33vw;
+        height: 50vh;
+    }
+}

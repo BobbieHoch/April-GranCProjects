@@ -1,0 +1,38 @@
+/* Goofy borders around everything to help us see the layout. */ 
+* { 
+    border: 2px solid cornflowerblue; 
+    margin: 5px; 
+    padding: 3px; 
+  } 
+  /* body takes up full viewport and extends all the way to the edges. */ 
+ body { 
+    margin: 0; 
+    padding: 0; 
+    border: none;   
+  } 
+  body { 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar
+  .footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .container{
+      display: flex;
+      height: 200px;
+  }
+  .main-article{
+      width: 75%;
+  }
+.sidebar{
+    width: 25%;
+
+}
+.links{
+    display: flex;
+}
+  

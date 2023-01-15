@@ -1,0 +1,87 @@
+*{
+   box-sizing: border-box; margin:0px;
+    padding:0px;
+    /* box-sizing: border-box; */
+}
+body{
+
+    color: #555;
+    background-color: #5B9EED;
+    width:55%;
+    height:100%;
+    align-content: center;
+
+    /* border-radius: 12px; */
+    border:2px solid rgb(146, 146, 146);
+}
+.container{
+    position: center;
+}
+/* List component */
+.list{
+    /* display:flex;
+    justify-content: center; */
+    background-color: #FFF;
+    list-style: none;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.30);
+}
+
+    .list .list-item{
+        display: flex;
+        padding: 10px 5px;
+      
+
+    }
+    .list .list-item:not(:last-child){
+        border-bottom: 1px solid #EEE;
+    }
+
+        /*list item image wrapper*/
+        .list .list-item__image{
+            flex-shrink: 0;
+            height: 80%;
+            display:flex;
+            justify-content: center;
+
+        }
+            .list .list-item__image img{
+                border-radius: 50%;
+                width: 80px;
+                height: 80px;
+            }
+
+        /*list item content*/
+        .list .list-item__content{
+            flex-grow: 1;
+            padding: 0 20px;
+        }
+            .list .list-item__content h4{
+                margin: 0;
+                font-size: 18px;
+                margin-top: 15px;
+            }
+
+            .list .list-item__content p{
+                margin-top: 5px;
+                color: #AAA;
+                margin-bottom: 0;
+            }
+        @media only screen and(min-width: 768px) {
+            /* User Card */
+            .list-item{
+                width: 60%;
+                height:45%
+                
+            /* */User list*/ */
+            .list{
+                display:flex
+                justify-content:space-between;
+            }
+           
+            }
+            
+        }
+        
